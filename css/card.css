@@ -10,19 +10,23 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
     font-weight: 500;
-    color: #d3d3d3;
-    background-color:  #212529;
+    color: #212529;
 }
 
 /* ALL WRAP */
+.wrapper {
+    background-color: #d3d3d3;
+}
+
 .all-wrap {
-    margin-bottom: 4rem;
+    padding-block: 5rem;
     width: 80%;
     margin-inline: auto;
+    background-color: #d3d3d3;
 }
 
 .team-info {
-    margin-block: 5rem;
+    margin-bottom: 3rem;
 }
 
 .team-info :is(h1, p) {
@@ -92,10 +96,12 @@ body {
 /* CARD */
 
 .full-pro {
+    color: #d3d3d3;
     display: grid;
     place-items: center;
     width: 100vw;
     height: 100vh;
+    background-color: #212529;
 }
 
 
