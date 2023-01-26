@@ -201,6 +201,7 @@ body {
 
 .pro-role {
     color: var(--color-white);
+    font-style: italic;
 }
 
 
